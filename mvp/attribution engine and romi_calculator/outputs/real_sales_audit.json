@@ -1,0 +1,29 @@
+{
+  "data_origin": "provided_sales_csv",
+  "source_sha256": "84e10e47a6c37acfff49414e334fcef2fb1fab3642c6e1044d23b31079fcceb6",
+  "rows": 795,
+  "buyers": 606,
+  "courses": 18,
+  "first_timestamp_naive": "2026-08-04T09:08:31",
+  "last_timestamp_naive": "2026-09-10T06:09:12",
+  "timezone": "not specified in source",
+  "calendar_dates_spanned": 38,
+  "exact_duplicate_rows": 0,
+  "candidate_order_groups": 628,
+  "multi_course_groups": 153,
+  "equal_amount_multiline_groups": 152,
+  "unequal_multiline_amounts": [
+    [
+      "5463.33",
+      "5463.33",
+      "5463.34"
+    ]
+  ],
+  "buyers_with_repeat_groups": 20,
+  "groups_after_first_observed": 22,
+  "line_amount_sum_rub": "5904671.67",
+  "alternative_equal_rows_are_repeated_order_total_rub": "4807522.67",
+  "assumption_sensitivity_rub": "1097149.00",
+  "unknown_source_share": 1.0,
+  "note": "Candidate groups are not verified orders. Amount sum is not verified cash revenue."
+}

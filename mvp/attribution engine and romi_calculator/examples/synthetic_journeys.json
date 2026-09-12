@@ -1,0 +1,116 @@
+{
+  "data_origin": "synthetic",
+  "tracking_started_at": "2026-07-01T00:00:00+03:00",
+  "description": "Entirely fictional users, orders and events. Not historical marketing reconstruction.",
+  "orders": [
+    {
+      "order_id": "demo_o1",
+      "user_id": "demo_u1",
+      "paid_at": "2026-09-10T12:00:00+03:00",
+      "net_revenue": "9990.00"
+    },
+    {
+      "order_id": "demo_o2",
+      "user_id": "demo_u1",
+      "paid_at": "2026-09-12T12:00:00+03:00",
+      "net_revenue": "4000.00"
+    },
+    {
+      "order_id": "demo_o3",
+      "user_id": "demo_u2",
+      "paid_at": "2026-09-10T12:00:00+03:00",
+      "net_revenue": "3000.00"
+    },
+    {
+      "order_id": "demo_o4",
+      "user_id": "demo_u3",
+      "paid_at": "2026-09-10T12:00:00+03:00",
+      "net_revenue": "2000.00"
+    },
+    {
+      "order_id": "demo_o5",
+      "user_id": "demo_u4",
+      "paid_at": "2026-09-10T12:00:00+03:00",
+      "net_revenue": "1000.00"
+    }
+  ],
+  "touches": [
+    {
+      "touch_id": "t1",
+      "user_id": "demo_u1",
+      "occurred_at": "2026-08-20T12:00:00+03:00",
+      "source_id": "paid_A",
+      "placement_id": "paid_A_placement",
+      "creative_id": "paid_A_creative",
+      "kind": "paid",
+      "evidence": "tracked",
+      "event_type": "bot_start"
+    },
+    {
+      "touch_id": "t2",
+      "user_id": "demo_u1",
+      "occurred_at": "2026-09-03T12:00:00+03:00",
+      "source_id": "owned_native",
+      "placement_id": "owned_native_placement",
+      "creative_id": "owned_native_creative",
+      "kind": "owned",
+      "evidence": "tracked",
+      "event_type": "bot_start"
+    },
+    {
+      "touch_id": "t3",
+      "user_id": "demo_u1",
+      "occurred_at": "2026-09-09T12:00:00+03:00",
+      "source_id": "owned_sale",
+      "placement_id": "owned_sale_placement",
+      "creative_id": "owned_sale_creative",
+      "kind": "owned",
+      "evidence": "tracked",
+      "event_type": "bot_start"
+    },
+    {
+      "touch_id": "t4",
+      "user_id": "demo_u3",
+      "occurred_at": "2026-09-09T12:00:00+03:00",
+      "source_id": "organic_search",
+      "placement_id": "organic_search_placement",
+      "creative_id": "organic_search_creative",
+      "kind": "organic",
+      "evidence": "tracked",
+      "event_type": "bot_start"
+    },
+    {
+      "touch_id": "t5",
+      "user_id": "demo_u4",
+      "occurred_at": "2026-09-09T12:00:00+03:00",
+      "source_id": "direct",
+      "placement_id": "direct_placement",
+      "creative_id": "direct_creative",
+      "kind": "direct",
+      "evidence": "tracked",
+      "event_type": "bot_start"
+    },
+    {
+      "touch_id": "t6",
+      "user_id": "demo_u2",
+      "occurred_at": "2026-09-09T12:00:00+03:00",
+      "source_id": "unverified_post",
+      "placement_id": "unverified_post_placement",
+      "creative_id": "unverified_post_creative",
+      "kind": "owned",
+      "evidence": "inferred",
+      "event_type": "bot_start"
+    },
+    {
+      "touch_id": "t7",
+      "user_id": "demo_u1",
+      "occurred_at": "2026-09-13T12:00:00+03:00",
+      "source_id": "future_paid_B",
+      "placement_id": "future_paid_B_placement",
+      "creative_id": "future_paid_B_creative",
+      "kind": "paid",
+      "evidence": "tracked",
+      "event_type": "bot_start"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "data_origin": "synthetic",
+  "description": "Hypothetical randomized eligible audience; not real customers.",
+  "n_treatment": 1000,
+  "buyers_treatment": 65,
+  "n_control": 1000,
+  "buyers_control": 50,
+  "cr_treatment": 0.065,
+  "cr_control": 0.05,
+  "absolute_lift": 0.015,
+  "relative_lift": 0.3,
+  "ci_low": -0.005531739865897365,
+  "ci_high": 0.03573832244594864,
+  "confidence_level": 0.95,
+  "incremental_buyers_in_treatment": 15.0,
+  "ci_method": "Newcombe independent Wilson",
+  "estimand": "ITT",
+  "planning_n_per_arm_5_to_6_5_percent": 3780,
+  "planning_alpha": 0.05,
+  "planning_power": 0.8
+}
